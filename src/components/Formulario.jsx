@@ -29,7 +29,7 @@ const Formulario = ({pacientes, setPacientes, paciente, setPaciente}) => {
     const handleSubmit = (e) => {
         e.preventDefault();
 
-        // Validación formulario
+        // Validación formularios
         if( [nombre, propietario, correo, fecha, sintomas].includes('')) {
             setError(true)
             return;
